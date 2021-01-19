@@ -1,8 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './assets/style/App.css';
 
 function App() {
+    
   return (
     <div className="App">
       <header className="App-header">
@@ -16,7 +17,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+            {/* {process.env.NODE_ENV} */}
+         学习React
         </a>
       </header>
     </div>
